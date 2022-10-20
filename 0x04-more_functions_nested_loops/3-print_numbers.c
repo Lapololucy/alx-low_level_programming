@@ -2,17 +2,15 @@
 
 /**
  * print_numbers - prints 0 to 9.
- *
+ * Rturn: always 0
  */
 void print_numbers(void)
 {
-	int num = 0;
+	int a = 0;
 
-	while (num < 10)
-	{
-		_putchar('0' + num);
-		num++;
-	}
+	while (a < 10)
+		_putchar(a++ + '0');
+
 	_putchar('\n');
 }
 
