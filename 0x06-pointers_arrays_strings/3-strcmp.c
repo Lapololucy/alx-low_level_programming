@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _strcmp -> a function to compare two strings
- * @s1: te string to compare against
- * @s2: the string to compare.
- *
- * Return: an int value.
+ * _strcmp -> compares two strings values
+ * @s1: string 1
+ * @s2: string 2
+ * Return: the difference in s1 and s2
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -16,11 +15,10 @@ int _strcmp(char *s1, char *s2)
 	{
 		if (s1[i] != s2[i])
 		{
-			return (s1[i] - s2[1]);
+			return (s1[i] - s2[i]);
 		}
 		i++;
 	}
-
 	return (0);
 }
 
