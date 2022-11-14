@@ -1,0 +1,1 @@
+The C language contains the typedef keyword to allow users to provide alternative names for the primitive (e.g.,​ int) and user-defined​ (e.g struct) data types. Remember, this keyword adds a new name for some existing data type but does not create a new type.
