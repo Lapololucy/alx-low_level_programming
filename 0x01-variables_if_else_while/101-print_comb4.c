@@ -8,26 +8,31 @@
 
 int main(void)
 {
-	int n;
-	int i;
-	int h;
+	int ones = '0';
+	int tens = '0';
+	int hundreds = '0';
 
-	for (h = 0; h != 8; h++)
+
+	for (hundreds = '0'; hundreds <= '9'; hundreds++)
 	{
-		for (n = h + 1; n != 9; n++)
+		for (tens = '0'; tens <= '9'; tens++)/* prints tens digit*/
 		{
-			i = n + 1;
-			do {
-				putchar('0' + n);
-				putchar('0' + i);
-				putchar('0' + h);
-				if (h != 7)
+			for (ones = '0'; ones <= '9'; ones++)/* prints ones digit*/
+			{
+				if (!((ones == tens) || (hundreds == tens) ||
+				      (tens > ones) || (hundreds > tens)))/*eliminates repeatition*/
 				{
-					putchar(',');
-					putchar(32);
+					putchar(hundreds);
+					putchar(tens);
+					putchar(ones);
+					if (!(ones == '9' && hundreds == '7' &&
+					      tens == '8'))/*addes comma and space*/
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
-				i++;
-			} while (i != 10);
+			}
 		}
 	}
 	putchar('\n');
