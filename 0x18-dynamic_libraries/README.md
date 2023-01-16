@@ -1,0 +1,1 @@
+A dynamic library (or shared library) contains code designed to be shared by multiple programs. The content in the library is loaded to memory at runtime. Each executable does not maintain its replication of the library.
