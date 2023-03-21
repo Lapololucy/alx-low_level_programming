@@ -10,3 +10,4 @@ A hash table uses a hash function to compute an index, also called a hash code,
 -Increment occurrence counter
 -Then recheck while loop’s condition of whether the index is occupied
 -Repeat this process until element finds a slot
+![hash table](https://user-images.githubusercontent.com/113608901/226551532-46b78871-17d7-46d8-8805-470e4b9c1c0c.png)
