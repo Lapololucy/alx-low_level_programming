@@ -10,3 +10,7 @@ need to be recompile, and issues command to recompile them.
 complex tasks with dependencies.
 • Makefile contains: dependency rules, macros and suffix(or implicit)
 rules. 
+
+
+![mk](https://user-images.githubusercontent.com/113608901/226883076-44f7ee8c-e5b8-4a6d-92d6-07277d14770b.png)
+![mk1](https://user-images.githubusercontent.com/113608901/226883106-f8aa9593-c72e-407a-8707-774b80441a28.png)
